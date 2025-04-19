@@ -1,0 +1,30 @@
+{
+  "name": "gamut-xcode",
+  "displayName": "Gamut-xcode",
+  "icon": "icon.png",
+  "description": "A colourful theme inspired by Xcode",
+  "publisher": "sean0717",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/arzg/gamut"
+  },
+  "version": "1.1.0",
+  "engines": {
+    "vscode": "^1.7.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gamut",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gamut-color-theme.json"
+      }
+    ]
+  }
+}
